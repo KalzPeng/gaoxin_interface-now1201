@@ -1,0 +1,176 @@
+{"simulationId":"speed_test",
+"total_time":"600",
+"weather":"sunny",
+"speed_control":"off",
+"type_control":"off",
+"lane_control":"off",
+"accident_control":"off",
+"speed_type_control":"off",
+"ramp_control":"off",
+"charge_control":"off",
+"sumo":"sumo",
+"speed":[
+{
+"start_stone":213,
+"end_stone":213.6,
+"direction":1,
+"lane_index":[0,1,2,3],
+"from_time":100,
+"to_time":300,
+"max_speed":10
+},
+{
+"start_stone":213,
+"end_stone":213.6,
+"direction":2,
+"lane_index":[0],
+"from_time":100,
+"to_time":300,
+"max_speed":10
+}
+],
+"type": [
+    {
+        "start_stone": 213,
+        "end_stone": 213.6,
+        "direction": 1,
+        "lane_index": 
+            {
+                "passenger": [],
+                "coach": [0],
+                "truck": [0],
+                "trailer": [0]
+            },
+        "from_time": 100,
+        "to_time": 400
+    },
+    {
+        "start_stone": 213,
+        "end_stone": 213.6,
+        "direction": 2,
+        "lane_index":
+            {
+                "passenger": [],
+                "coach": [0],
+                "truck": [0],
+                "trailer": [0]
+            },
+        "from_time": 100,
+        "to_time": 400
+    }
+],
+"lane": [
+        {
+            "start_stone": 213,
+            "end_stone": 213.6,
+            "direction": 1,
+            "lane_index": [0],
+            "from_time": 50,
+            "to_time": 300
+        },
+        {
+            "start_stone": 213,
+            "end_stone": 213.6,
+            "direction": 2,
+            "lane_index": [0],
+            "from_time": 50,
+            "to_time": 300
+        }
+    ],
+    "accident": [
+        {
+            "start_stone": 213.1,
+            "end_stone": 213.2,
+            "pos": 50,
+            "direction": 1,
+            "lane_index": [0,1,2,3],
+            "from_time": 50,
+            "to_time": 100
+        },
+        {
+            "start_stone": 213.1,
+            "end_stone": 213.2,
+            "pos": 50,
+            "direction": 2,
+            "lane_index": [0,1,2,3],
+            "from_time": 50,
+            "to_time": 100
+        }
+    ],
+    "speed_type": [
+        {
+        "start_stone": 213,
+        "end_stone": 213.6,
+        "direction": 1,
+        "from_time": 100,
+        "to_time": 300,
+        "lane_index":[
+            {
+            "lane": 0,
+            "type": "truck",
+            "max_speed": 30,
+            "close":0
+            },
+            {
+            "lane": 1,
+            "type": "truck",
+            "max_speed": 30,
+            "close":0
+            },
+            {
+            "lane": 2,
+            "type": "truck",
+            "max_speed": 30,
+            "close":0
+            }]},
+        {
+        "start_stone": 208.4,
+        "end_stone": 210.4,
+        "direction": 2,
+        "from_time": 300,
+        "to_time": 600,
+        "lane_index":[
+            {
+            "lane": 0,
+            "type": "truck",
+            "max_speed": 30,
+            "close":0
+            },
+            {
+            "lane": 1,
+            "type": "truck",
+            "max_speed": 30,
+            "close":0
+            },
+            {
+            "lane": 2,
+            "type": "truck",
+            "max_speed": 30,
+            "close":1
+            }]}],
+    "ramp":[
+        {
+        "edges": ["185"],
+        "from_time": 300,
+        "to_time": 600,
+        "lane_index":[
+            {
+            "lane": 0,
+            "type": "truck",
+            "max_speed": 30
+            }]
+            }
+        ],
+    "charge": [
+        {
+        "edges": ["E39","E48","E60","E12","E11","E10"],
+        "from_time": 300,
+        "to_time": 600,
+        "lane_index":[
+            {
+            "lane": 0,
+            "close":1
+            }]
+            }
+        ]
+}

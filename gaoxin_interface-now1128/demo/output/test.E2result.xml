@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-11-30 14:45:59 by Eclipse SUMO sumo Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo/new.net.xml"/>
+        <route-files value="C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo/new.rou.xml"/>
+        <additional-files value="C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo/test.add.xml,C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo/test_E2.add.xml,C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo\test.vType.xml"/>
+    </input>
+
+    <output>
+        <human-readable-time value="true"/>
+        <netstate-dump value="C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo\output/test.veh.xml"/>
+        <queue-output value="C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo\output/test.que.xml"/>
+        <summary-output value="C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo\output/test.sum.xml"/>
+        <statistic-output value="C:\Users\pengx\Desktop\gaoxin_interface-now1128\gaoxin_interface-now1128\demo\output/test.sta.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <threads value="1"/>
+        <lateral-resolution value="0.8"/>
+        <ignore-junction-blocker value="-1"/>
+        <ignore-route-errors value="true"/>
+        <collision.action value="none"/>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.probability value="1"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.pre-period value="300"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <duration-log.disable value="false"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="54778"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+    <gui_only>
+        <start value="true"/>
+        <delay value="80"/>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+</detector>

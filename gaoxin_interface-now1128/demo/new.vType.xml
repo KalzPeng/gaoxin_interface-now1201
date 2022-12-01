@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<additional>
+	<vType id="block" length="50" color="cyan" vClass="custom1" guiShape="truck" minGap="0" maxSpeed="1e-100" accel="1e-100" decel="1e-100"/>
+	<vType id="passenger" vClass="passenger" carFollowModel="IDM" laneChangeModel="SL2015" lcStrategic="1" lcCooperative="1" lcSpeedGain="2" lcKeepRight="0.8" maxSpeed="33.33" minGap="1.75" tau="1.57" accel="2.6" decel="4.5" emergencyDecel="9.0" probability="0.8" color="green"/>
+	<vType id="coach" vClass="coach" carFollowModel="IDM" laneChangeModel="SL2015" lcStrategic="1" lcCooperative="1" lcSpeedGain="2" lcKeepRight="0.8" maxSpeed="25.0" minGap="2.05" tau="1.57" accel="2.0" decel="4.0" emergencyDecel="7.0" probability="0.1" color="blue"/>
+	<vType id="truck" vClass="truck" carFollowModel="IDM" laneChangeModel="SL2015" lcStrategic="1" lcCooperative="1" lcSpeedGain="2" lcKeepRight="0.8" maxSpeed="25.0" minGap="1.75" tau="1.57" accel="1.3" decel="4.0" emergencyDecel="7.0" probability="0.07" color="yellow"/>
+	<vType id="trailer" vClass="trailer" carFollowModel="IDM" laneChangeModel="SL2015" lcStrategic="1" lcCooperative="1" lcSpeedGain="2" lcKeepRight="0.8" maxSpeed="22.22" minGap="2.25" tau="1.57" accel="1.0" decel="4.0" emergencyDecel="7.0" probability="0.03" color="red"/>
+	<vTypeDistribution id="set" vTypes="passenger coach truck trailer"/>
+</additional>
