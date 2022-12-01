@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-12-01 09:46:45 by Eclipse SUMO sumo Version 1.13.0
+<!-- generated on 2022-12-01 14:21:08 by Eclipse SUMO sumo Version 1.13.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -47,7 +47,7 @@
     </report>
 
     <traci_server>
-        <remote-port value="57758"/>
+        <remote-port value="58793"/>
     </traci_server>
 
     <random_number>
@@ -61,8 +61,3 @@
     </gui_only>
 
 </configuration>
--->
-
-<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
-    <interval begin="00:00:00" end="00:10:00" id="lane_noise"/>
-</meandata>
